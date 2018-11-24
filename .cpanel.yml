@@ -3,3 +3,4 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/reviinve/hello.revi.investments/
     - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp hello.txt $DEPLOYPATH
